@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>7bd82823-724f-4717-a014-ff088f4e1488</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>TopoTimeShared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\NodeGroup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\GenerateTTService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Divergence.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\NodeCommands.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\UPGMANode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partitions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\SerializableDictionary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\SerializableNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\TopoTimeNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\TopoTimeTree.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\HALFunctions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ResolutionHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\TreeBuilderService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\TreeIOService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TreeEditingService.cs" />
+  </ItemGroup>
+</Project>

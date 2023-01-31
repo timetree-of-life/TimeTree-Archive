@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TimeTreeShared", "TimeTreeShared.shproj", "{BA20C6B2-F28A-4713-993C-6B08E3EF9377}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TimeTreeShared.projitems*{ba20c6b2-f28a-4713-993c-6b08e3ef9377}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC1146FE-3258-42EB-B80E-519B346FC729}
+	EndGlobalSection
+EndGlobal

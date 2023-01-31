@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>ba20c6b2-f28a-4713-993c-6b08e3ef9377</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>TimeTreeShared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\Logging.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\CSVUtility.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\RecursionHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\StringFunctions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Command.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\HugeMemoryStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Map.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ObjectExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ChildPairDivergence.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\MyTuple.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Study.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\DatabaseService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\SharedFunctions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\TimeTree.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ExtendedNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\MainEditingService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ToConsolidate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TopoFilters.cs" />
+  </ItemGroup>
+</Project>
